@@ -34,7 +34,7 @@ def partition(alist, first, last):
 
     while not done:
         while leftmark <= rightmark and alist[leftmark] <= pivotvalue:
-            leftmark = leftmark + 1
+            leftmark += 1
 
         while alist[rightmark] >= pivotvalue and rightmark >= leftmark:
             rightmark -= 1

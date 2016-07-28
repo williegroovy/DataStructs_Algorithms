@@ -211,4 +211,4 @@ print("---------")
 print("Unordered")
 print("---------")
 
-# No support for catching edge cases if item is being delted does not exist.
+# No support for catching edge cases if item is being deleted does not exist.
